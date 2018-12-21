@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2405F4381DAFCE150098AC5D /* RNShapeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2405F4371DAFCE140098AC5D /* RNShapeView.swift */; };
-		2405F43A1DAFCE230098AC5D /* RNShapeViewBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 2405F4391DAFCE230098AC5D /* RNShapeViewBridge.m */; };
-		2405F43D1DAFCE4C0098AC5D /* RNShapeViewManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2405F43C1DAFCE4C0098AC5D /* RNShapeViewManager.swift */; };
+		2405F4381DAFCE150098AC5D /* RNHexagonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2405F4371DAFCE140098AC5D /* RNHexagonView.swift */; };
+		2405F43A1DAFCE230098AC5D /* RNHexagonViewBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 2405F4391DAFCE230098AC5D /* RNHexagonViewBridge.m */; };
+		2405F43D1DAFCE4C0098AC5D /* RNHexagonViewManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2405F43C1DAFCE4C0098AC5D /* RNHexagonViewManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,10 +26,10 @@
 
 /* Begin PBXFileReference section */
 		134814201AA4EA6300B7C361 /* libRNShapeImageView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRNShapeImageView.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		2405F4371DAFCE140098AC5D /* RNShapeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RNShapeView.swift; sourceTree = "<group>"; };
-		2405F4391DAFCE230098AC5D /* RNShapeViewBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNShapeViewBridge.m; sourceTree = "<group>"; };
-		2405F43B1DAFCE430098AC5D /* RNShapeView-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RNShapeView-Bridging-Header.h"; sourceTree = "<group>"; };
-		2405F43C1DAFCE4C0098AC5D /* RNShapeViewManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RNShapeViewManager.swift; sourceTree = "<group>"; };
+		2405F4371DAFCE140098AC5D /* RNHexagonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RNHexagonView.swift; sourceTree = "<group>"; };
+		2405F4391DAFCE230098AC5D /* RNHexagonViewBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNHexagonViewBridge.m; sourceTree = "<group>"; };
+		2405F43B1DAFCE430098AC5D /* RNHexagonView-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RNHexagonView-Bridging-Header.h"; sourceTree = "<group>"; };
+		2405F43C1DAFCE4C0098AC5D /* RNHexagonViewManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RNHexagonViewManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,10 +54,10 @@
 		2405F4361DAFCDF10098AC5D /* RNShapeView */ = {
 			isa = PBXGroup;
 			children = (
-				2405F43C1DAFCE4C0098AC5D /* RNShapeViewManager.swift */,
-				2405F43B1DAFCE430098AC5D /* RNShapeView-Bridging-Header.h */,
-				2405F4391DAFCE230098AC5D /* RNShapeViewBridge.m */,
-				2405F4371DAFCE140098AC5D /* RNShapeView.swift */,
+				2405F43C1DAFCE4C0098AC5D /* RNHexagonViewManager.swift */,
+				2405F43B1DAFCE430098AC5D /* RNHexagonView-Bridging-Header.h */,
+				2405F4391DAFCE230098AC5D /* RNHexagonViewBridge.m */,
+				2405F4371DAFCE140098AC5D /* RNHexagonView.swift */,
 			);
 			name = RNShapeView;
 			sourceTree = "<group>";
@@ -127,9 +127,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2405F4381DAFCE150098AC5D /* RNShapeView.swift in Sources */,
-				2405F43A1DAFCE230098AC5D /* RNShapeViewBridge.m in Sources */,
-				2405F43D1DAFCE4C0098AC5D /* RNShapeViewManager.swift in Sources */,
+				2405F4381DAFCE150098AC5D /* RNHexagonView.swift in Sources */,
+				2405F43A1DAFCE230098AC5D /* RNHexagonViewBridge.m in Sources */,
+				2405F43D1DAFCE4C0098AC5D /* RNHexagonViewManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -232,7 +232,7 @@
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = RNShapeImageView;
 				SKIP_INSTALL = YES;
-				SWIFT_OBJC_BRIDGING_HEADER = "RNShapeImageView-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "RNHexagonView-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
@@ -253,7 +253,7 @@
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = RNShapeImageView;
 				SKIP_INSTALL = YES;
-				SWIFT_OBJC_BRIDGING_HEADER = "RNShapeImageView-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "RNHexagonView-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
